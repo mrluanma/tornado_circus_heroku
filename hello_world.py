@@ -1,3 +1,5 @@
+from __future__ import unicode_literals, print_function
+import os
 import socket
 
 import tornado.web
@@ -7,11 +9,13 @@ from tornado.options import define, options, parse_command_line
 
 
 define("fd", default=None, help="File Descriptor given by circus", type=int)
+pid = os.getpid()
 
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Hello, world!")
+        print("Hello, world!", file=self)
+        print("Process ID: %s" % pid, file=self)
 
 
 application = tornado.web.Application([
