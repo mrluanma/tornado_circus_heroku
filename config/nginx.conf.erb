@@ -1,6 +1,5 @@
 daemon off;
-#Heroku dynos have 4 cores.
-worker_processes 4;
+worker_processes auto;
 
 events {
   use epoll;
