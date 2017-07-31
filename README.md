@@ -14,7 +14,7 @@ Or hardcore mode
 ```bash
 $ heroku create
 $ heroku buildpacks:set heroku/python
-$ heroku buildpacks:add https://github.com/ryandotsmith/nginx-buildpack.git
+$ heroku buildpacks:add https://github.com/heroku/heroku-buildpack-nginx.git
 $ git push heroku master
 $ heroku open
 ```
