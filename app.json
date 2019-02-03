@@ -1,12 +1,12 @@
 {
   "name": "tornado_circus_heroku",
-  "description": "Manage a bunch of Tornado app processes on one Heroku dyno with [Circus](http://circus.readthedocs.org/).",
+  "description": "Manage a bunch of Tornado app processes on one Heroku dyno with Circus.",
   "buildpacks": [
     {
       "url": "heroku/python"
     },
     {
-      "url": "https://github.com/heroku/heroku-buildpack-nginx.git"
+      "url": "heroku-community/nginx"
     }
   ]
 }

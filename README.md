@@ -1,7 +1,7 @@
 tornado_circus_heroku
 =====================
 
-Manage a bunch of Tornado app processes on one Heroku dyno with[Circus](http://circus.readthedocs.org/).
+Manage a bunch of Tornado app processes on one Heroku dyno with [Circus](http://circus.readthedocs.org/).
 
 Just click the button
 ---------------------
@@ -14,7 +14,7 @@ Or hardcore mode
 ```bash
 $ heroku create
 $ heroku buildpacks:set heroku/python
-$ heroku buildpacks:add https://github.com/heroku/heroku-buildpack-nginx.git
+$ heroku buildpacks:add heroku-community/nginx
 $ git push heroku master
 $ heroku open
 ```

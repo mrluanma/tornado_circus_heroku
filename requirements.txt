@@ -1,5 +1,5 @@
-circus==0.14.0
-iowait==0.2
-psutil==5.0.0
-pyzmq==16.0.2
-tornado==4.4.2
+circus==0.15.0
+psutil==5.5.0
+pyzmq==16.0.4
+six==1.12.0
+tornado==4.5.3

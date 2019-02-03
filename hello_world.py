@@ -1,4 +1,3 @@
-from __future__ import unicode_literals, print_function
 import os
 import socket
 
@@ -18,9 +17,7 @@ class MainHandler(tornado.web.RequestHandler):
         print("Process ID: %s" % pid, file=self)
 
 
-application = tornado.web.Application([
-    (r"/", MainHandler),
-])
+application = tornado.web.Application([("/", MainHandler)])
 
 
 def main():
