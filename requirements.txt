@@ -1,5 +1,4 @@
-circus==0.15.0
-psutil==5.5.0
-pyzmq==16.0.4
-six==1.12.0
-tornado==4.5.3
+circus==0.17.1
+psutil==5.8.0
+pyzmq==22.0.3
+tornado==6.1
