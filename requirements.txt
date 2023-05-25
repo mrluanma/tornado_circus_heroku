@@ -1,4 +1,4 @@
 circus==0.17.1
 psutil==5.8.0
 pyzmq==22.0.3
-tornado==6.1
+tornado==6.3.2
